@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.DailyMood">
+
+    <AbsoluteLayout BackgroundColor="#ffd373">
+        <BoxView BackgroundColor="#ffd373"
+     CornerRadius ="15"
+     WidthRequest="380"
+     HeightRequest="450"
+     AbsoluteLayout.LayoutBounds=".5, .1, AutoSize, AutoSize" 
+     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Как прошел день?"
+   FontSize="40"
+   TextColor="SteelBlue"
+   AbsoluteLayout.LayoutBounds=".5, .1, AutoSize, AutoSize" 
+   AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text ="Запишите впечатления..." 
+    CornerRadius="20"
+    FontSize="20"
+    BackgroundColor="#5fc0ce" 
+    AbsoluteLayout.LayoutBounds=".5, .45, 360, 80" 
+    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+    
+</ContentPage>
